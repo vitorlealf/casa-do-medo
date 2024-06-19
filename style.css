@@ -1,0 +1,33 @@
+body{
+    background-color: blueviolet;
+    color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+h1{
+    color:brown;
+}
+
+.caixa-pricipal{
+    background-color: azure;
+    width: 90%;
+    text-align: center;
+    padding: 20px;
+}
+
+button{
+    background-color: chartreuse;
+    color: chocolate;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    transition: background-color 0.3s;
+}
+
+button:hover{
+    background-color: darkslategray;
+    color: deeppink;
+}
